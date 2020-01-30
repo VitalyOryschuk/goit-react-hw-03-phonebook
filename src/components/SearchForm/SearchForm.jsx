@@ -3,10 +3,6 @@ import shortid from 'shortid';
 import styles from './SearchForm.module.css';
 
 export default class SearchForm extends Component {
-  // static defaultProps = {
-  //   onChangeSubmit: function,
-  // };
-
   state = {
     name: '',
     number: '',
